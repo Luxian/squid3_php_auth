@@ -12,7 +12,7 @@
  * Original code can be found here:
  *   http://www.freesoftwaremagazine.com/articles/authentication_with_squid
  *
- * Update for:
+ * Full project:
  *   https://github.com/Luxian/squid3_php_auth
  */
 
@@ -39,7 +39,7 @@ while (!feof(STDIN)) {
     $password = rawurldecode($fields[1]); //1738
 
     // Replace the following with anything else
-    if ($username == '' && $password == '') {
+    if ($username == 'proxy' && $password == 'pass') {
         // Allow access
         fwrite(STDOUT, "OK\n");
     }
