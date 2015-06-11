@@ -60,12 +60,20 @@ vi squid.conf
 ```
 
 Configuration comes with the following settings:
-    http port: 3128
-    allowed ports: 
-      443 (https), 80 (http), 21 (ftp), 
-      70 (gopher), 210 (wais), 280 (http-mgmt), 4
-      88 (gss-http), 591 (filemaker), 777 (multi-http)
-      1025-65535 (most of unregistered ports) - remove this if you don't need them
+```
+http port: 3128
+allowed ports: 
+    443 (https), 
+    80 (http), 
+    21 (ftp), 
+    70 (gopher), 
+    210 (wais), 
+    280 (http-mgmt),
+    488 (gss-http), 
+    591 (filemaker), 
+    777 (multi-http)
+    1025-65535 (most of unregistered ports) - remove this if not needed
+```
 
 
 
