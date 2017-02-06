@@ -23,7 +23,7 @@ sudo apt-get install squid3 php5-cli
 cd /etc/squid3/
 ```
     
-###3. Move all default configuration files to a new server
+###3. Backup all default configuration files to a new folder
 ```bash
 mkdir old-files
 mv *.* old-files
